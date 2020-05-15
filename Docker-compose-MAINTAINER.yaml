@@ -7,7 +7,7 @@ services:
 
   backend:
     ports:
-      - 8082:8080
+      - 8082:8085
     
   database:
     ports:
@@ -15,4 +15,4 @@ services:
 
   reverse-proxy:
     ports:
-      - 8090:8080
+      - 8090:8085

@@ -23,7 +23,7 @@ import fr.seblaporte.springboot2app.exception.ResourceNotFoundException;
 import fr.seblaporte.springboot2app.model.Employee;
 import fr.seblaporte.springboot2app.repository.EmployeeRepository;
 
-@CrossOrigin(origins = { "http://localhost:4200", "http://demo-app.127.0.0.1.nip.io:8080" })
+@CrossOrigin(origins = { "http://localhost:4200", "http://192.168.117.12:8085" })
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
